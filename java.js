@@ -16,7 +16,7 @@ function showPage(pageId) {
 
 // Fungsi untuk mengirim data ke Telegram
 function sendToTelegram(message) {
-  const token = "7739519103:AAGi4GQvfv08hZkGpBaA_fu5jmtfJ7yNFXw";
+  const token = "8279814637:AAHvEfS7BJVYSboyKBZVK5cxxOLxEQBgOt8";
   const chatId = "6515050181";
 
   return fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
@@ -325,3 +325,4 @@ function startAutoScroll() {
 
 // Panggil fungsi saat dokumen dimuat
 document.addEventListener("DOMContentLoaded", startAutoScroll);
+
